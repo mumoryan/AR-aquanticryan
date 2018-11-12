@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+    <title>CSS practice 1</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!---internal css--->
+    <style type="text/css">
+        @font-face {
+            font-family: myFont;
+            src: url(Walkway-Oblique.ttf);
+        }
+        
+        
+        a:link a:visited {
+            color: darkturquoise;
+            text-decoration: none;
+        }
+        .Line1 {
+            color:darkcyan;
+            font-size: 150%;
+        }
+        
+        #TestLine4 {
+            color:coral;
+            text-decoration: underline;
+        }
+        
+        .special {
+            color: cornflowerblue;
+            text-decoration: none;
+        }
+        
+        #first-section {
+            background-color: floralwhite;
+            font-family: myFont;
+            width:50%;
+            margin: 50px;
+        }
+        
+        #second-section {
+            background-color: beige;
+            font-family: myFont;
+            width: 50%;
+            
+            /*top and bot 50px, left and right 10px*/
+            margin: 50px 10px;
+        }
+        
+        .clear-float {
+            background-color:darkseagreen;
+            color: aliceblue;
+            font-family: myFont;
+            width: 50%;
+            
+            margin: 50px 40px 30px 20px;
+            /*or margin-left: 50px; if you want to set individually*/
+        }
+    </style>
+    
+</head>
+
+<body>
+    <h1>Welcome!</h1>
+    <!---inline css--->
+    <p style="font-size:75%;color:blue">inline css test</p>
+    
+    <p class="Line1">Test Line 2</p>
+    <p class="Line1">Test Line 3</p>
+    <p id="TestLine4">Test <span class="special">special</span> Line 4</p>
+    
+    <div id="first-section">
+        <h2>This is a different part of stuff!</h2>
+        <p>I am so lonely...</p>
+        <p>Being creative sort of eases the pain, helps me forget, but doesn't solve my loneliness</p>
+    </div>
+    
+    <div id="second-section">
+        <p>I am still lonely...</p>
+        <p>Being bossy sort of eases the pain, helps me forget, but doesn't solve my loneliness</p>
+    </div>
+    
+    <div class="clear-float">
+        <p>However, I am not lonely when someone is near, siting silently.</p>
+        <p>Better when that person is a girl...</p>
+        <p>Even better if I don't know what she look like.</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    background-color: silver;
+    font-family: Arial, Verdana, sans-serif;
+    padding: 20px;
+}
+h1{
+    background-color: white;
+    color: #64645A;
+    padding: inherit;
+}
+p{
+    color: white;
+    padding: 0px;
+}
+p.p14{
+    background-color: rgb(0,136,221);
+}
